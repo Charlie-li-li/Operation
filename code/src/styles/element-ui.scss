@@ -1,0 +1,242 @@
+// cover some element-ui styles
+.el-breadcrumb__inner,
+.el-breadcrumb__inner a {
+    font-weight: 400 !important;
+}
+
+.el-upload {
+    input[type="file"] {
+        display: none !important;
+    }
+}
+
+.el-upload__input {
+    display: none;
+}
+
+// to fixed https://github.com/ElemeFE/element/issues/2461
+.el-dialog {
+    transform: none;
+    left: 0;
+    position: relative;
+    margin: 0 auto;
+}
+
+// refine element ui upload
+.upload-container {
+    .el-upload {
+        width: 100%;
+        .el-upload-dragger {
+            width: 100%;
+            height: 200px;
+        }
+    }
+}
+
+// dropdown
+.el-dropdown-menu {
+    a {
+        display: block
+    }
+}
+
+.app-main {
+    background: #f7f7f7;
+}
+
+.dashboard-text {
+    height: 100%;
+    background: #fff;
+    padding: 30px 40px 0 40px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.search {
+    padding-right: 10px;
+}
+
+.search-box {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 34px;
+    box-sizing: border-box;
+}
+
+.el-input {
+    width: 100%;
+    height: 100%;
+    margin-top: -10px;
+}
+
+.search-button {
+    margin-top: -10px;
+    margin-right: 10px;
+}
+
+.search .el-input__inner {
+    width: 260px;
+    height: 40px !important;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.el-input__prefix {
+    height: 40px;
+    line-height: 40px;
+}
+
+.colum-button {
+    margin-top: -10px;
+    position: absolute;
+    right: 70px;
+}
+
+.search-title {
+    padding-right: 20px;
+    font-size: 16px;
+}
+
+.condition {
+    .el-row:first-child {
+        margin-bottom: 20px;
+    }
+}
+
+.pager {
+    width: 511px;
+    margin: 50px auto 20px auto;
+}
+
+.el-button {
+    width: 100px;
+    height: 40px;
+    background: #00aaa6;
+}
+
+.el-scrollbar__wrap {
+    overflow-x: hidden;
+}
+
+.btn-box {
+    margin: 20px auto 20px auto;
+    width: 216px;
+}
+
+.el-table th {
+    background: #d8d8d8;
+}
+
+.el-table__body-wrapper .el-button {
+    width: 98%;
+    max-width: 100px;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    margin-right: 2px;
+}
+
+.el-table--scrollable-x .el-table__body-wrapper {
+    overflow: hidden;
+}
+
+.sidebar-logo-container {
+    text-align: left !important;
+    padding-left: 21px;
+    height: 80px;
+    line-height: 80px;
+    font-weight: 700;
+}
+
+.app-wrapper .sidebar-logo-container .sidebar-logo-link .sidebar-logo {
+    width: 2px !important;
+    height: 18px !important;
+    margin-left: 15px;
+}
+
+.dialog-box .item {
+    width: 100%;
+    display: flex;
+}
+
+.dialog-box .item div {
+    text-align: left;
+    width: 50%;
+    line-height: 30px;
+}
+
+.dialog-box .item div:first-child {
+    text-align: right;
+    margin-right: 50px;
+}
+
+.el-dialog__header {
+    padding: 28px 0 25px;
+    border-bottom: 1px solid #ddd;
+}
+
+.el-dialog__header .el-dialog__title {
+    color: #00aaa6 !important;
+}
+
+.btn-box .el-button:last-child {
+    background: #c53c29;
+    border: 1px solid #c53c29;
+}
+
+.el-dialog__footer .el-button:last-child {
+    background: #c53c29;
+    border: 1px solid #c53c29;
+}
+
+.app-breadcrumb.el-breadcrumb .no-redirect {
+    padding: 0 !important;
+}
+
+.svg-icon {
+    color: rgb(191, 203, 217);
+}
+
+.el-submenu__title span {
+    color: #000;
+}
+
+.menu-wrapper span {
+    color: #000;
+}
+
+.sidebar-logo-container {
+    background: #e4f1f1 !important;
+}
+
+.sidebar-title {
+    color: #000 !important;
+}
+
+.el-submenu__title span {
+    margin-left: 10px;
+}
+
+.el-menu-item span {
+    margin-left: 10px;
+}
+
+.menu-wrapper {
+    border-bottom: 1px solid #ddd;
+}
+
+.el-submenu__title {
+    border-bottom: 1px solid #ddd !important;
+}
+
+.el-table th>.cell {
+    text-align: center;
+}
+
+.el-breadcrumb__inner{
+    font-size:16px;
+}
+.el-breadcrumb__separator{
+    color: #333333;
+}
